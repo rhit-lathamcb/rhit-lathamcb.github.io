@@ -8,5 +8,5 @@ headerTemplate.innerHTML =
 let bodyTag = document.getElementsByTagName("body")[0];
 let mainTag = document.getElementsByTagName("main")[0];
 // maybe these need to be node objects but aren't idk
-headerTemplate.insertBefore(bodyTag, mainTag);
+headerTemplate.content.insertBefore(bodyTag, mainTag);
 // document.body.appendChild(headerTemplate.content);
