@@ -1,10 +1,18 @@
 const headerTemplate = document.createElement('template');
 
 headerTemplate.innerHTML =      
-  '<header><nav><a href="index.html">Main Page</a><p> | </p><a href="portfolio.html">Portfolio</a><p> | </p><a href="resume.html">Resume</a></nav></header>'
+  '<header><nav><a href="index.html">Main Page</a> | <a href="portfolio.html">Portfolio</a> | <a href="resume.html">Resume</a></nav></header>'
 
 let bodyTag = document.getElementsByTagName("body")[0];
 let mainTag = document.getElementsByTagName("main")[0];
-// maybe these need to be node objects but aren't idk
 bodyTag.insertBefore(headerTemplate.content, mainTag);
-// document.body.appendChild(headerTemplate.content);
+
+const footerTemplate = document.createElement('template');
+
+footerTemplate.innerHTML =      
+  '<footer><a href="https://www.linkedin.com/in/carter-latham-862112329/">LinkedIn</a><a href="https://app.joinhandshake.com/profiles/fx7nxk">Handshake</a><a href="https://github.com/rhit-lathamcb">GitHub</a></footer>'
+
+bodyTag.appendChild(footerTemplate.content);
+
+
+
