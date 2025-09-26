@@ -1,5 +1,7 @@
 const headerTemplate = document.createElement('template');
 
+console.log("do it run")
+
 headerTemplate.innerHTML =      
   <header>
     <nav>
