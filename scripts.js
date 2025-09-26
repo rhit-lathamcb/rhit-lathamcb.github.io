@@ -7,5 +7,5 @@ headerTemplate.innerHTML =
 
 bodyTag = document.getElementsByTagName("body")[0];
 mainTag = document.getElementsByTagName("main")[0];
-headerTemplate.insertBefore(document.getElementsByTagName(bodyTag, mainTag));
+headerTemplate.insertBefore(bodyTag, mainTag);
 // document.body.appendChild(headerTemplate.content);
