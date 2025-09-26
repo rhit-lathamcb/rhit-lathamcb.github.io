@@ -6,5 +6,5 @@ headerTemplate.innerHTML =
 let bodyTag = document.getElementsByTagName("body")[0];
 let mainTag = document.getElementsByTagName("main")[0];
 // maybe these need to be node objects but aren't idk
-bodyTag.insertBefore(headerTemplate, mainTag);
+bodyTag.insertBefore(headerTemplate.content, mainTag);
 // document.body.appendChild(headerTemplate.content);
