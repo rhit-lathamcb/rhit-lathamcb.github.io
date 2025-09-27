@@ -32,20 +32,20 @@ iframe {
   margin-bottom: 10px;
 }
 
-#arcade-game {
+.color-red {
   /* https://www.w3schools.com/css/css3_gradients.asp */
   background-image: linear-gradient(var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-orange));
 }
 
-#editortrees {
+.color-orange {
   background-image: linear-gradient(var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-yellow));
 }
 
-#xv6-threads {
+.color-yellow {
   background-image: linear-gradient(var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-green));
 }
 
-#guitar-hero {
+.color-green {
   background-color: var(--pastel-green);
 }
 
