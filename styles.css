@@ -34,15 +34,15 @@ iframe {
 
 .color-red {
   /* https://www.w3schools.com/css/css3_gradients.asp */
-  background-image: linear-gradient(var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-orange));
+  background-image: linear-gradient(var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-orange));
 }
 
 .color-orange {
-  background-image: linear-gradient(var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-yellow));
+  background-image: linear-gradient(var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-yellow));
 }
 
 .color-yellow {
-  background-image: linear-gradient(var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-green));
+  background-image: linear-gradient(var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-green));
 }
 
 .color-green {
@@ -51,6 +51,6 @@ iframe {
 
 section {
   padding: 10px;
-  margin-top: -6px;
-  margin-bottom: -6px;
+  margin-top: -5px;
+  margin-bottom: -5px;
 }
