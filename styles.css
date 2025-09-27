@@ -94,8 +94,7 @@ section {
   margin-bottom: 0px;
 }
 
-.carter-picture {
+#carter-picture {
   display: flex;
   justify-content: center;
-  text-align: center;
 }
