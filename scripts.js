@@ -11,5 +11,15 @@ footerTemplate.innerHTML =
   '<footer><a href="https://www.linkedin.com/in/carter-latham-862112329/">LinkedIn</a> | <a href="https://app.joinhandshake.com/profiles/fx7nxk">Handshake</a> | <a href="https://github.com/rhit-lathamcb">GitHub</a></footer>'
 bodyTag.appendChild(footerTemplate.content);
 
+/* https://www.w3schools.com/jsref/met_win_settimeout.asp - need timer for popup */
+const myTimeout = setTimeout(popupActivate, 6000);
+
+function popupActivate() {
+  let popupElement = document.getElementById("my-popup");
+  popupElement.classList.remove("invisible");
+  popupElement.addEventListener("onclick", (e) => {
+    popupElement.classList.add("invisible")
+  })
+}
 
 

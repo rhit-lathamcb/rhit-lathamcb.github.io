@@ -26,6 +26,7 @@ h1 {
   text-decoration: underline;
   padding: 10px 10px 40px 10px;
   margin-bottom: 0px;
+  font-size: 4em;
   background-image: linear-gradient(black, black, black, white);
   color: white;
 }
@@ -91,4 +92,15 @@ section {
   padding: 10px 10px 20px 10px;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+/* https://www.w3schools.com/howto/howto_js_popup.asp - the idea of a popup was not inspired by anything in particular, I just thought it would be a good idea to make sure the user didn't miss anything they may have wanted to see! */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.invisible {
+  visibility: hidden;
 }
