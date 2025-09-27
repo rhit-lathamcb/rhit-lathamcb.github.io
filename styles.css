@@ -97,4 +97,5 @@ section {
 #carter-picture {
   display: flex;
   justify-content: center;
+  background-image: "backgroundimage.png"
 }
