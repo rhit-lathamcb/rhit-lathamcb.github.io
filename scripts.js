@@ -11,11 +11,9 @@ footerTemplate.innerHTML =
   '<footer><a href="https://www.linkedin.com/in/carter-latham-862112329/" id="linkedin-link">LinkedIn</a> | <a href="https://app.joinhandshake.com/profiles/fx7nxk" id="handshake-link">Handshake</a> | <a href="https://github.com/rhit-lathamcb" id="github-link">GitHub</a></footer>'
 bodyTag.appendChild(footerTemplate.content);
 
-popupAfterMinute();
-
 /* https://www.w3schools.com/js/js_timing.asp - I decided it would be a good idea to make sure the user has seen everything they want to see. I suppose some users could miss the links, especially the ones in the footer */
-function popupAfterMinute() {
-  setTimeout(0, 6000);
+setTimeout(popup, 6000);
+function popup() {
   window.alert("Be sure to check out all of the links!")
 }
 
