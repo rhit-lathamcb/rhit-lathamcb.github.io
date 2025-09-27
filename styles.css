@@ -38,15 +38,15 @@ iframe {
 }
 
 #editortrees {
-  background-image: linear-gradient(--pastel-orange, --pastel-orange, --pastel-orange, --pastel-orange, --pastel-orange, --pastel-orange, --pastel-orange, --pastel-yellow);
+  background-image: linear-gradient(var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-orange), var(--pastel-yellow));
 }
 
 #xv6-threads {
-  background-image: linear-gradient(--pastel-yellow, --pastel-yellow, --pastel-yellow, --pastel-yellow, --pastel-yellow, --pastel-yellow, --pastel-yellow, --pastel-green);
+  background-image: linear-gradient(var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-green));
 }
 
 #guitar-hero {
-  background-color: --pastel-green;
+  background-color: var(--pastel-green);
 }
 
 section {
