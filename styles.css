@@ -18,8 +18,8 @@ img {
 h1 {
   text-align: center;
   text-decoration: underline;
-  padding: 10px;
-  background-color: black;
+  padding: 10px 10px 20px 10px;
+  background-image: linear-gradient(black, black, black, black, black, white);
   color: white;
 }
 
@@ -39,7 +39,7 @@ iframe {
 
 .color-red {
   /* https://www.w3schools.com/css/css3_gradients.asp */
-  background-image: linear-gradient(var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-orange));
+  background-image: linear-gradient(white, var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-orange));
 }
 
 .color-orange {
