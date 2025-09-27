@@ -1,5 +1,6 @@
 :root {
   --pastel-red: #ffbbbb;
+  --pastel-red-orange: #ffccbb;
   --pastel-orange: #ffddbb;
   --pastel-yellow: #ffffbb;
   --pastel-green: #bbffbb;
@@ -40,7 +41,7 @@ iframe {
 .color-red {
   /* https://www.w3schools.com/css/css3_gradients.asp - This interesting CSS was not inspired by any particular webpage, but when
   I looked at mine I thought it would look cool if the background colors faded into each other */
-  background-image: linear-gradient(white, var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-orange));
+  background-image: linear-gradient(white, var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red-orange), var(--pastel-orange));
 }
 
 .color-orange {
@@ -49,6 +50,10 @@ iframe {
 
 .color-yellow {
   background-image: linear-gradient(var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-yellow), var(--pastel-green));
+}
+
+.color-yellow-at-end {
+  background-image: var(--pastel-yellow);
 }
 
 .color-green {
