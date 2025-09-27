@@ -38,7 +38,8 @@ iframe {
 }
 
 .color-red {
-  /* https://www.w3schools.com/css/css3_gradients.asp */
+  /* https://www.w3schools.com/css/css3_gradients.asp - This interesting CSS was not inspired by any particular webpage, but when
+  I looked at mine I thought it would look cool if the background colors faded into each other */
   background-image: linear-gradient(white, var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-orange));
 }
 
