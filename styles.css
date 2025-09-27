@@ -25,7 +25,7 @@ h1 {
   text-align: center;
   text-decoration: underline;
   padding: 10px 10px 40px 10px;
-  margin-bottom: -5px;
+  margin-bottom: 0px;
   background-image: linear-gradient(black, black, black, black, white);
   color: white;
 }
