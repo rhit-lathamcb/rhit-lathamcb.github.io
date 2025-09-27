@@ -25,8 +25,8 @@ iframe {
   margin-bottom: 10px;
 }
 
-#arcade-game {
-  background-color: #ffbbbb
+#arcade-game::before {
+  background-image: linear-gradient(#ffddbb, #ffffbb);
 }
 
 #editortrees {
