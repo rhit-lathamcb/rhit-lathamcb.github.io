@@ -1,3 +1,10 @@
+:root {
+  --pastel-red: #ffbbbb;
+  --pastel-orange: #ffddbb;
+  --pastel-yellow: #ffffbb;
+  --pastel-green: #bbffbb;
+}
+
 body {
   font-family: 'Times New Roman';
 }
@@ -26,23 +33,23 @@ iframe {
 }
 
 #arcade-game {
-  background-image: linear-gradient(#ffbbbb, #ffbbbb, #ffbbbb, #ffddbb);
+  background-image: linear-gradient(--pastel-red, --pastel-red, --pastel-red, --pastel-red, --pastel-red, --pastel-red, --pastel-red, --pastel-orange);
 }
 
 #editortrees {
-  background-color: #ffddbb
+  background-image: linear-gradient(--pastel-orange, --pastel-orange, --pastel-orange, --pastel-orange, --pastel-orange, --pastel-orange, --pastel-orange, --pastel-yellow);
 }
 
 #xv6-threads {
-  background-color: #ffffbb
+  background-image: linear-gradient(--pastel-yellow, --pastel-yellow, --pastel-yellow, --pastel-yellow, --pastel-yellow, --pastel-yellow, --pastel-yellow, --pastel-green);
 }
 
 #guitar-hero {
-  background-color: #bbffbb
+  background-color: --pastel-green;
 }
 
 section {
   padding: 10px;
-  margin-top: -15px;
-  margin-bottom: -15px;
+  margin-top: -13px;
+  margin-bottom: -13px;
 }
