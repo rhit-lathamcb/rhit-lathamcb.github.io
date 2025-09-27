@@ -79,7 +79,7 @@ iframe {
 }
 
 .color-yellow-at-end {
-  background-image: var(--pastel-yellow);
+  background-color: var(--pastel-yellow);
 }
 
 .color-green {
