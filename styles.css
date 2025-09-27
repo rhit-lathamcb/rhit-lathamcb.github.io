@@ -4,6 +4,11 @@
   --pastel-orange: #ffddbb;
   --pastel-yellow: #ffffbb;
   --pastel-green: #bbffbb;
+  --link-default: #2f00ff;
+  --link-visited: #1c0098;
+  --link-hovering: #8266ff;
+  --link-activated: #ff2222;
+  --link-focus: #ff8800;
 }
 
 body {
@@ -32,6 +37,26 @@ h2 {
 h3, p {
   padding-left: 5px;
   padding-bottom: 10px;
+}
+
+a:link {
+  color: var(--link-default);
+}
+
+a:visited {
+  color: var(--link-visited);
+}
+
+a:hover {
+  color: var(--link-hovering);
+}
+
+a:active {
+  color: var(--link-activated);
+}
+
+a:focus {
+  color: var(--link-focus);
 }
 
 iframe {
