@@ -33,7 +33,8 @@ iframe {
 }
 
 #arcade-game {
-  background-image: linear-gradient(--pastel-red, --pastel-red, --pastel-red, --pastel-red, --pastel-red, --pastel-red, --pastel-red, --pastel-orange);
+  /* https://www.w3schools.com/css/css3_gradients.asp */
+  background-image: linear-gradient(var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-red), var(--pastel-orange));
 }
 
 #editortrees {
