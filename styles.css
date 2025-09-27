@@ -19,3 +19,24 @@ h1 {
 h2 {
   padding: 5px;
 }
+
+iframe {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#arcade-game {
+  background-color: #ffbbbb
+}
+
+#editortrees {
+  background-color: #ffddbb
+}
+
+#xv6-threads {
+  background-color: #ffffbb
+}
+
+#guitar-hero {
+  background-color: #bbffbb
+}
