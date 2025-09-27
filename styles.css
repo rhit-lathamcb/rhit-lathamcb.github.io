@@ -94,13 +94,7 @@ section {
   margin-bottom: 0px;
 }
 
-/* https://www.w3schools.com/howto/howto_js_popup.asp - the idea of a popup was not inspired by anything in particular, I just thought it would be a good idea to make sure the user didn't miss anything they may have wanted to see! */
-.popup {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.invisible {
-  visibility: hidden;
+.carter-picture {
+  display: flex;
+  justify-content: center;
 }
